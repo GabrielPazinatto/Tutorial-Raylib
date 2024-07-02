@@ -183,3 +183,7 @@ Consulte o [cheatsheet](https://www.raylib.com/cheatsheet/cheatsheet.html). Lá 
 * [programa_basico.cpp](programa_basico.cpp) é um programa que demonstra como utilizar as funções básicas da biblioteca. Você pode usá-lo como base para iniciar seu projeto.
 
 * [menu.cpp](menu.cpp) é um exemplo de criação de um menu para o seu jogo.
+
+* [pulo.c](pulo.c) demonstra uma maneira de implementar a movimentação lateral e os pulos do jogador.
+
+* Muitos outros exemplos podem ser encontrados no [site de exemplos](https://www.raylib.com/examples.html).
