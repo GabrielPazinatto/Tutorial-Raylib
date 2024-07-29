@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-Esse tutorial abrange a parte mais básica do funcionamento da biblioteca Raylib. Para fins didáticos, muitas explicações técnicas estão simplificadas e podem não estar totalmente corretas, mas são úteis para quem está aprendendo a utilizar a biblioteca. Para ter mais detalhes, acesse o site da Raylib e leia a "documentação oficial".
+Esse tutorial abrange a parte mais básica do funcionamento da biblioteca Raylib. Para fins didáticos, muitas explicações técnicas estão simplificadas, mas são úteis para quem está aprendendo a utilizar a biblioteca. Para ter mais detalhes, acesse o site da Raylib e leia a "documentação oficial".
 
 Esse tutorial foi criado tendo em mente auxiliar alunos que estejam cursando a disciplina de Algoritmos e Programação na UFRGS, considerando os requisitos para implementar o trabalho final, mas pode ser consultado por qualquer um que deseje aprender a utilizar a biblioteca.
 
@@ -39,7 +39,7 @@ Estas são as funções que você precisa conhecer para desenvolver qualquer pro
 * ```SetTargetFPS(int frameRate);```
   * <i>frameRate</i> - Quantidade de quadros por segundo (fps) do jogo.
 
-  Essa função determina quantas vezes o loop principal do seu programa (ver [programa_basico.cpp]) será executado por segundo. É comum limitar a quantidade de FPS em 60, mas teoricamente qualquer valor é possível.
+  Essa função determina quantas vezes o loop principal do seu programa (ver [programa_basico.cpp](programa_basico.cpp)) será executado por segundo. É comum limitar a quantidade de FPS em 60, mas teoricamente qualquer valor é possível.
   Repare que tudo que estiver dentro do seu loop principal será executado <i>frameRate</i> vezes por segundo, **inclusive suas atualizações de variáveis.** Pense em como isso afetará o funcionamento do seu jogo.
 
 * ` int WindowShouldClose(void); `
